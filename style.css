@@ -9,11 +9,14 @@
 }
 .btn{
   display: flex;
-  padding: 0px 30px;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  border-radius: 20px;
+  padding: 15px 20px !important;
+  outline: 0 !important;
+  border: 0 !important;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 20px !important;
   background-color: #A259FF !important;
 }
 h1 {
@@ -206,8 +209,11 @@ h6{
   background: #3B3B3B;
 }
 .container-fluid{
-  height: 640px;
+  display: flex;
   padding: 360px 195px 60px 195px;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: stretch;
   background-image: url(./foto/box6/hugemashroom.png); 
   background-repeat: no-repeat;
   background-size: cover;
