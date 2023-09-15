@@ -310,12 +310,13 @@ h4{
 }
 .mushrom{
   background-image: url(./foto/box6/mmashroom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  padding: 120px 195px 40px 195px;
+  padding: 120px 50px 40px 50px;
   justify-content: center;
-  align-items: flex-end;
-  align-self: stretch;
-}.container9{
+}
+.container9{
   display: flex;
   padding: 60px;
   align-items: center;
