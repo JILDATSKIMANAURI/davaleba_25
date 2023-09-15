@@ -8,6 +8,7 @@
   font-family: Work Sans;
 }
 .btn{
+  width: 100%;
   display: flex;
   padding: 15px 20px !important;
   outline: 0 !important;
